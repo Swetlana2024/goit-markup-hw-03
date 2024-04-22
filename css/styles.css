@@ -204,6 +204,7 @@ address {font-style: normal;
     display: flex;
     column-gap: 24px;
     flex-wrap: wrap;
+    
 }
 
 .menu-list {
