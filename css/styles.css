@@ -40,16 +40,29 @@ color:#434455;
 background-color:#FFFFFF;
 }
 
+.section-paddings {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 /*--header-styles--*/
 
 .page-header-container {
     display: flex;
-justify-content: space-between;}
+justify-content: space-between;
+width: 1158px;
+margin-left: auto;
+margin-right: auto;
+padding-left: 15px;
+padding-right: 15px;
+}
     
 
 .page-navigation {
     display: flex;
     align-items: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    margin-right: 332px;
 }
 
 
@@ -95,6 +108,8 @@ justify-content: space-between;}
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding-top: 24px;
+    padding-bottom: 24px;
     color: #434455;
 }
 
@@ -109,23 +124,40 @@ address {font-style: normal;
 .menu-top {
     display: flex;
     column-gap: 40px;
+    align-items: center;
     padding-top: 24px;
     padding-bottom: 24px;
 }
 
 /*--Section1--*/ 
 
+.page-box {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #2e2f42;
+}
+
 
  .page-title {
+    max-width: 496px;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
+    margin-bottom: 48px;
+    margin-top: 188px;
+    margin-left: 331px;
     color: #FFFFFF;
 }
 
  .button-one {
+    width: 169px;
+    height: 56px;
+    margin-left: 495px;
+    margin-right: 495px;
+    margin-bottom: 188px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -141,7 +173,16 @@ address {font-style: normal;
 
  /*--Section2--*/
 
+ .subject {
+    font-size: 0;
+ }
+ .page-main {
+    display: flex;
+    column-gap: 24px;
+ }
+
 .page-main-title {
+    width: 264px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -157,12 +198,19 @@ address {font-style: normal;
     color: #434455;
 }
 
-    /*--Section3-4--*/
+    /*--Section3-4--*/ 
+
+.page-menu-list {
+    display: flex;
+    column-gap: 24px;
+    flex-wrap: wrap;
+}
 
 .menu-list {
     background-color: #FFFFFF;
 }
 .section-three {
+    
     background-color: #f4f4fd;
 }
 
@@ -173,6 +221,7 @@ address {font-style: normal;
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
+    margin-bottom: 120px;
     color: #2e2f42;
 }
 
@@ -213,7 +262,4 @@ color: #434455;
         color: #f4f4fd;
     }
 
-    .page-box {
-        background-color: #2e2f42;
-    }
     
