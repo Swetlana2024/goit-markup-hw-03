@@ -54,6 +54,8 @@ margin-left: auto;
 margin-right: auto;
 padding-left: 15px;
 padding-right: 15px;
+border-bottom: 5px;
+border-color: #4d5ae5;
 }
     
 
@@ -204,6 +206,7 @@ address {font-style: normal;
     display: flex;
     column-gap: 24px;
     flex-wrap: wrap;
+    border-bottom: #404bbf;
     
 }
 
@@ -234,6 +237,8 @@ address {font-style: normal;
      line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
+    margin-left: 16px;
+    margin-top: 32px;
     color: #2e2f42;
 }              
 
