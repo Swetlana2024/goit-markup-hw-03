@@ -46,6 +46,10 @@ background-color:#FFFFFF;
 }
 /*--header-styles--*/
 
+.page-header {
+    border-bottom: 1px solid #e7e9fc;  
+}
+
 .page-header-container {
     display: flex;
 justify-content: space-between;
@@ -54,7 +58,6 @@ margin-left: auto;
 margin-right: auto;
 padding-left: 15px;
 padding-right: 15px;
-border-bottom: 1px solid #e7e9fc;
 }
     
 
@@ -198,12 +201,11 @@ address {font-style: normal;
 
  .page-main {
     display: flex;
+    column-gap: 24px;
  }
-
- .lead {
-    margin-right: 24px;;
- }
-
+.lead {
+    width: calc((100% - 72px) / 4);
+}
  .lead:last-child {
     margin-right: 0;
  }
@@ -234,12 +236,17 @@ address {font-style: normal;
     column-gap: 24px;
     flex-wrap: wrap;
     border-bottom: #404bbf;
+    row-gap: 48px;
     
 }
 
+.page-menu {
+    column-gap: 24px;
+}
 .menu-list {
     background-color: #FFFFFF;
     margin-right: 24px;
+    border-radius: 0px 0px 4px 4px;
 }
 .menu-list:last-child {
     margin-bottom: 0;
@@ -257,7 +264,7 @@ address {font-style: normal;
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
-    margin-bottom: 120px;
+    margin-bottom: 72px;
     color: #2e2f42;
 }
 
