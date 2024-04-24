@@ -26,11 +26,9 @@ margin-bottom: 0;
 }
 
 .container {
-    width: 1158px;
-margin-left: auto;
-margin-right: auto;
-padding-left: 15px;
-padding-right: 15px;
+max-width: 1158px;
+margin: 0  auto;
+padding: 0 15px;
 }
 
 
@@ -133,10 +131,15 @@ address {font-style: normal;
 
 .menu-top {
     display: flex;
-    column-gap: 40px;
     align-items: center;
     padding-top: 24px;
     padding-bottom: 24px;
+}
+.page-menu-top {
+    margin-right: 40px;
+}
+.page-menu-top:last-child {
+    margin: 0;
 }
 
 /*--Section1--*/ 
