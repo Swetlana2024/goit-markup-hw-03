@@ -204,10 +204,10 @@ address {font-style: normal;
 
  .page-main {
     display: flex;
-    column-gap: 24px;
  }
 .lead {
     width: calc((100% - 72px) / 4);
+    margin-right: 24px;
 }
  .lead:last-child {
     margin-right: 0;
@@ -244,8 +244,9 @@ address {font-style: normal;
 }
 
 .page-menu {
-    column-gap: 24px;
+    display: flex;
 }
+
 .menu-list {
     background-color: #FFFFFF;
     margin-right: 24px;
