@@ -239,9 +239,9 @@ address {font-style: normal;
 }
 
 .container-holder-box {
-    padding: 32px 16p;
     border: 1px solid #e7e9fc;
     border-top: none;
+    padding: 32px 16px;
 }
 
 .product:first-child {
