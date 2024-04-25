@@ -234,6 +234,16 @@ address {font-style: normal;
 
     /*--Section3-4--*/ 
 
+.holder {
+    padding: 32px 0;
+}
+
+.holder-box {
+    padding: 32px 16p;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+
 .page-menu-list {
     display: flex;
     column-gap: 24px;
@@ -253,7 +263,7 @@ address {font-style: normal;
     border-radius: 0px 0px 4px 4px;
 }
 .menu-list:last-child {
-    margin-bottom: 0;
+    margin-right: 0;
 }
 
 .section-three {
@@ -282,7 +292,7 @@ address {font-style: normal;
     text-align: center;
     margin-left: 16px;
     margin-top: 32px;
-    margin-bottom: 72px;
+    margin-bottom: 8px;
     color: #2e2f42;
 }              
 
