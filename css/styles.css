@@ -144,6 +144,11 @@ address {font-style: normal;
 
 /*--Section1--*/ 
 
+.page-box {
+    background-color: #2e2f42;
+    padding: 188px 0;
+}
+
  .page-title {
     max-width: 496px;
     font-weight: 700;
@@ -305,6 +310,7 @@ color: #434455;
 
 .content {
     padding: 100px 0; 
+    background-color: #2e2f42;
 }
 
 
@@ -324,9 +330,7 @@ color: #434455;
     display: inline-block;
     margin-bottom: 16px;
 }
- .page-box {
-    background-color: #2e2f42;
-}
+ 
     
     
   
