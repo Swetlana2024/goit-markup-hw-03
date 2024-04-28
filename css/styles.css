@@ -20,9 +20,11 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+p {
 margin-top: 0;
 margin-bottom: 0;
+margin: 0;
 }
 
 .container {
@@ -62,9 +64,7 @@ padding-right: 15px;
 .page-navigation {
     display: flex;
     align-items: center;
-    padding-top: 24px;
-    padding-bottom: 24px;
-    margin-right: 332px;
+    margin-right: auto;
 }
 
 
@@ -144,14 +144,6 @@ address {font-style: normal;
 
 /*--Section1--*/ 
 
-.page-box {
-    max-width: 1440px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 188px 0;
-    background-color: #2e2f42;
-}
-
  .page-title {
     max-width: 496px;
     font-weight: 700;
@@ -160,8 +152,8 @@ address {font-style: normal;
     letter-spacing: 0.02em;
     text-align: center;
     margin-bottom: 48px;
-    margin-top: 188px;
-    margin-left: 331px;
+    margin-left: auto;
+    margin-right: auto;
     color: #FFFFFF;
 }
 
@@ -171,9 +163,8 @@ address {font-style: normal;
     border: none;
     border-radius: 4px;
     height: 56px;
-    margin-left: 495px;
-    margin-right: 495px;
-    margin-bottom: 188px;
+    margin-left: auto;
+    margin-right: auto;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -294,8 +285,6 @@ address {font-style: normal;
      line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
-    margin-left: 16px;
-    margin-top: 32px;
     margin-bottom: 8px;
     color: #2e2f42;
 }              
@@ -320,6 +309,7 @@ color: #434455;
 
 
 .footer-lead {
+    max-width: 264px;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -334,4 +324,10 @@ color: #434455;
     display: inline-block;
     margin-bottom: 16px;
 }
-    
+ .page-box {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 188px 0;
+    background-color: #2e2f42;
+}  
